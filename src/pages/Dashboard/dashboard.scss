@@ -1,0 +1,189 @@
+.dashboard {
+  width: 100%;
+}
+
+.dashboard-body {
+  padding: 15px 35px;
+  padding-right: 0;
+
+  .icon {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  .inputBox {
+    border: none;
+    outline: none;
+    background: #fff;
+    width: 100%;
+
+    &::placeholder {
+      font-size: 15px;
+    }
+  }
+
+  h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    width: 50%;
+
+    .bookDetails {
+      color: #818589;
+      font-size: 15px;
+    }
+
+    .bookTitle {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 625px) {
+  .search {
+    margin-top: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 97%;
+    margin-right: 35px;
+  }
+
+  .bookCardsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 60vh;
+    padding-right: 0;
+  }
+
+  .bookCard {
+    height: 120px;
+    width: 38vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-left: 6px solid rgb(233, 183, 1);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-height: 625px) {
+  .search {
+    margin-top: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 97%;
+  }
+
+  .bookCardsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    max-height: 55vh;
+    padding-right: 0;
+  }
+
+  .bookCard {
+    height: 120px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-left: 6px solid rgb(233, 183, 1);
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 625px) {
+  .search {
+    margin-top: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 97%;
+  }
+
+  .bookCardsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 40vh;
+    padding-right: 0;
+  }
+
+  .bookCard {
+    height: 120px;
+    width: 38vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-left: 6px solid rgb(233, 183, 1);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-height: 625px) {
+  .search {
+    margin-top: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 97%;
+  }
+
+  .bookCardsContainer {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    max-height: 40vh;
+    padding-right: 0;
+  }
+
+  .bookCard {
+    height: 120px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-left: 6px solid rgb(233, 183, 1);
+    cursor: pointer;
+  }
+}
